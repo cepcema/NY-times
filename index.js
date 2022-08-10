@@ -1,6 +1,6 @@
 const feedDisplay = document.querySelector(`#feed`)
 
-const url = `https://ny-times-api.herokuapp.com/`
+const url = `https://ny-times-api.herokuapp.com/test`
 
 fetch(url)
 .then(response => response.json())
